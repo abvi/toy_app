@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def index
-    @title = "Welcome to this Rails App!";
+    @title = "Welcome to Abhi's Users App!";
     @body = "View Users";
     @link = "/users";
   end
